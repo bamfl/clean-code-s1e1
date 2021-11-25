@@ -4,24 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.header img {
   width: 100%;
 }
-.aaa .more-inf {
+.header .info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .header { text-align: element-center;
 }
 }
-.centered-main-page-element {
+.element-center {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -100,7 +100,7 @@ li {
 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: element-center;
 }
 li > * {
   vertical-align: middle;
