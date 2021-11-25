@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.header img {
+.header .scheme {
   width: 100%;
 }
 
@@ -21,8 +21,9 @@
 }
 
 @media (max-width: 768px) {
-  .header { text-align: center;
-}
+  .header { 
+    text-align: center;
+  }
 }
 
 .element-center {
@@ -46,11 +47,13 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
 
@@ -133,7 +136,7 @@ input,button{
   width: 226px;
 }
 
-.list-item >    [type="text"] {
+.list-item > [type="text"] {
   width: 226px;
 }
 
